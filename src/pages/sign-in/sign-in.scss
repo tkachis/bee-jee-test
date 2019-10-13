@@ -1,0 +1,14 @@
+@import '../../scss/config';
+
+.sign-in {
+	@extend %background;
+	width: 450px;
+
+	.form {
+		padding-top: 1rem;
+	}
+
+	.btn-container {
+		padding-top: 1rem;
+	}
+}

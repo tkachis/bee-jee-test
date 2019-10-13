@@ -1,0 +1,9 @@
+@import '../../scss/config';
+
+.form-input {
+	width: 100%;
+	padding: 0.6rem;
+	margin: 2px;
+	border: 2px solid $primary-color;
+	outline: none;
+}

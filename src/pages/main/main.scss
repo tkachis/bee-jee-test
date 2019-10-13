@@ -1,0 +1,11 @@
+@import '../../scss/config';
+
+.Main {
+	@extend %background;
+	width: 900px;
+	position: relative;
+
+	h1 {
+		padding-bottom: 1rem;
+	}
+}

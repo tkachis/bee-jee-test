@@ -1,0 +1,45 @@
+@import '../../scss/config';
+
+.task-item {
+	padding: 2rem 0;
+	border-top: 2px solid $primary-color;
+	position: relative;
+
+	.checkbox {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+	}
+
+	.form {
+		display: flex;
+	}
+
+	.username {
+		font-size: 1.3rem;
+		font-weight: 600;
+	}
+
+	.email {
+		font-style: italic;
+		padding-bottom: 0.5rem;
+	}
+
+	.text {
+		font-size: 1.5rem;
+		word-wrap: break-word;
+	}
+
+	&-completed {
+		.text {
+			text-decoration: line-through;
+		}
+
+		p {
+			color: gray;
+		}
+	}
+}
